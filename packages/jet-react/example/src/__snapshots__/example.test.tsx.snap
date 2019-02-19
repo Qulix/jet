@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Example should match snapshot: <Text /> Snapshot 1`] = `
+<p>
+  Text
+</p>
+`;
+
+exports[`Example should math snapshot: <Text /> Snapshot 1`] = `
+<p>
+  Text
+</p>
+`;

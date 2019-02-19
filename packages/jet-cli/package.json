@@ -1,0 +1,58 @@
+{
+  "name": "@qulix/jet",
+  "version": "0.1.0",
+  "main": "./bin/jet.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=9",
+    "npm": ">=5.5.1"
+  },
+  "files": [
+    "lib",
+    "bin",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node ./bin/jet.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "qulix",
+    "jest",
+    "cli",
+    "typescript",
+    "react",
+    "e2e",
+    "snapshot",
+    "puppeteer",
+    "testing",
+    "tests"
+  ],
+  "author": "Pavel Bely <PBely@qulix.com> (https://twitter.com/R1ZENX)",
+  "contributors": [
+    {
+      "name": "Pavel Bely",
+      "url": "https://twitter.com/R1ZENX"
+    }
+  ],
+  "homepage": "https://github.com/qulix/jet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qulix/jet"
+  },
+  "bugs": {
+    "url": "https://github.com/qulix/jet/issues"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.1",
+    "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "jet-e2e": "file:../jet-e2e",
+    "jet-react": "file:../jet-react"
+  }
+}

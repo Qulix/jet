@@ -1,0 +1,17 @@
+{
+  "name": "jet-packages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=9",
+    "npm": ">=5.5.1"
+  },
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "test": "lerna run test"
+  },
+  "dependencies": {
+    "lerna": "^3.10.7"
+  }
+}

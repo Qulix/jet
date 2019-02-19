@@ -1,0 +1,58 @@
+{
+  "name": "@qulix/jet-react",
+  "version": "0.1.0",
+  "description": "Jest TypeScript React Configuration",
+  "main": "./lib/index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "engines": {
+    "node": ">=9",
+    "npm": ">=5.5.1"
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "keywords": [
+    "qulix",
+    "jest",
+    "typescript",
+    "snapshot",
+    "react",
+    "testing",
+    "tests"
+  ],
+  "author": "Pavel Bely <PBely@qulix.com> (https://twitter.com/R1ZENX)",
+  "contributors": [
+    {
+      "name": "Pavel Bely",
+      "url": "https://twitter.com/R1ZENX"
+    }
+  ],
+  "homepage": "https://github.com/qulix/jet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qulix/jet"
+  },
+  "bugs": {
+    "url": "https://github.com/qulix/jet/issues"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@types/enzyme": "^3.1.16",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.9.0",
+    "enzyme-to-json": "^3.3.5",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "23.6.0",
+    "react-test-renderer": "^16.7.0",
+    "ts-jest": "^23.10.5"
+  },
+  "devDependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
