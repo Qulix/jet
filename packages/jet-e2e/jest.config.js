@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  preset: 'jest-puppeteer',
+  preset: require.resolve('jest-puppeteer'),
   testMatch: [
     '<rootDir>/**/__tests__/**/*.e2e.ts',
     '<rootDir>/**/?(*.)e2e.(spec|test).ts',
