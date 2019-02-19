@@ -1,8 +1,4 @@
 import '@types/jest';
 import '@types/puppeteer';
-import { Browser, Page } from 'puppeteer';
-
-declare global {
-  const browser: Browser;
-  const page: Page;
-}
+import '@types/jest-environment-puppeteer';
+import '@types/expect-puppeteer';
