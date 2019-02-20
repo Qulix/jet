@@ -1,7 +1,12 @@
 'use strict';
 
 module.exports = {
-  preset: require.resolve('jest-puppeteer'),
+  // TODO: should replaced with preset when it will be fixed
+  globalSetup: require.resolve("jest-environment-puppeteer/setup"),
+  globalTeardown: require.resolve("jest-environment-puppeteer/teardown"),
+  testEnvironment: require.resolve("jest-environment-puppeteer"),
+  setupFilesAfterEnv: [require.resolve("expect-puppeteer")],
+  // ---
   testMatch: [
     '<rootDir>/**/__tests__/**/*.e2e.ts',
     '<rootDir>/**/?(*.)e2e.(spec|test).ts',
